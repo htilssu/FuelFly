@@ -1,0 +1,26 @@
+name: FuelFly
+authors:
+  - Hisu
+version: '${project.version}'
+main: org.htilssu.fuelfly.FuelFly
+api-version: '1.16'
+load: STARTUP
+permissions:
+  fuel.fly:
+    description: allow player use fuel to fly
+    default: op
+  fuel.give:
+    description: give fuel to a player
+    default: op
+    children:
+      fuel.give.player: true
+commands:
+  fly:
+    description: Get fly
+    permission:
+    aliases:
+      - f
+      - fl
+      - fly
+    permission-message: You don't have permission
+

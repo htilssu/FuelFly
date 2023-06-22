@@ -1,0 +1,31 @@
+#version
+#Support & color
+
+version: '1.0.0'
+
+fuel:
+  material: 'feather'
+  name: 'Fuel Fly'
+  lore:
+    - '&dThis lore is example'
+    #-
+    #-
+
+
+  #time in minutes
+  time: 60
+  price: 1000
+
+message:
+  fly-on: 'Enabled flying'
+  fly-off: 'Diasbled flying'
+  no-fuel: 'You do not have any fuel'
+  player-offline: 'Player is offline'
+  time-up: 'Out of fuel, you can not fly anymore'
+
+
+
+
+
+
+

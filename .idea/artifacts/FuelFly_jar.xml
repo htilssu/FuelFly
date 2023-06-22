@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="FuelFly:jar">
+    <output-path>$USER_HOME$/Desktop/1.16.5/plugins</output-path>
+    <root id="root">
+      <element id="archive" name="FuelFly.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$USER_HOME$/Desktop/1.16.5/plugins/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="FuelFly" />
+      </element>
+    </root>
+  </artifact>
+</component>
